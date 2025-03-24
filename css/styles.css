@@ -8,6 +8,10 @@
     --dark-blue:#233142;
     --header-bg:#0C1117;
 }
+*::selection{
+    color: red;
+    background-color: black;
+}
 *{
     margin: 0;
     padding: 0;
@@ -215,7 +219,7 @@ color: var(--light-blue);
     font-family: var(--title-fontfamily);
 font-weight: 400;
 font-size: 50px;
-line-height: 2q;
+line-height: 2;
 letter-spacing: 0%;
 
 }
@@ -230,11 +234,100 @@ margin-bottom: 59px;
 .hero__img{
     position: absolute;
     top: 32px;
-    margin-right: 0;
+    right: 0;
+    transition: all 0.4s ease;
 }
 
 .hero__bg{
     position: absolute;
     top: 796px;
     left: 0;
+}
+
+
+/* We-works */
+
+.we-work {
+    /* padding-top: 100px; */
+    padding-bottom: 145px;
+    background-color: var(--white-color);
+}
+.we-work__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.we-work__line {
+    width: 3px;
+    height: 54px;
+    background-color: var(--light-blue);
+    margin-right: 38px;
+}
+.we-work__title {
+    font-family: var(--title-fontfamily);
+font-weight: 600;
+font-size: 38px;
+line-height: 1.2;
+letter-spacing: 1px;
+text-align: center;
+color: var(--light-black);
+}
+.we-work__title span {
+    color: var(--light-blue);
+}
+.we-work__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.we-work__img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 16px;
+}
+.we-work__title3 {
+    font-family: var(--title-fontfamily);
+font-weight: 400;
+font-size: 30px;
+line-height: 1;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: var(--light-black);
+}
+
+
+/* Part */
+
+.part {
+    padding-top: 145px;
+    padding-bottom: 85px;
+}
+.part__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.part__item {
+max-width: 381px;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.part__item:nth-child(-n+3){
+    margin-bottom: 60px;
+}
+.part__item-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.part__item-title {
+    font-family: var(--title-fontfamily);
+font-weight: 400;
+font-size: 20px;
+line-height: 1.1;
+letter-spacing: 0%;
+margin-bottom: 18px;
 }
