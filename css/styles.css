@@ -445,3 +445,94 @@ line-height: 1.5;
 letter-spacing: 2px;
 color: var(--gray-color);
 }
+
+/* Few reasons */
+
+.few-reason {
+    padding-top: 149px;
+    padding-bottom: 145px;
+    background-image: url(../images/few-reason/few-reasonss-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-color: #F6F6F6;
+}
+.few-reason__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 84px;
+}
+.few-reason__line {
+    width: 3px;
+    height: 92px;
+    background-color: var(--light-blue);
+    margin-right: 28px;
+}
+.few-reason__info-title {
+    font-family: var(--title-fontfamily);
+font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+letter-spacing: 1px;
+color: var(--dark-blue);
+transition: all 0.4s ease;
+}
+.few-reason__info-title span{
+    color: var(--light-blue);
+    transition: all 0.4s ease   ;
+}
+.few-reason__info-title:hover{
+    color: var(--light-blue);
+}
+.few-reason__info-title:active{
+    opacity: 0.6;
+}
+.few-reason__info-title span:hover{
+    color: var(--dark-blue);
+}
+.few-reason__info-title span:active{
+    opacity: 0.6;
+}
+.few-reason__item{
+    max-width: 567px;
+    width: 100%;
+}
+.few-reason__item:not(:last-child) {
+    margin-bottom: 46px;
+}
+.few-reason__item-title3 {
+    font-family: var(--title-fontfamily);
+font-weight: 400;
+font-size: 44px;
+line-height: 0.9;
+letter-spacing: 1px;
+margin-bottom: 38px;
+color: var(--gray-color);
+transition: all 0.4s ease;
+}
+.few-reason__item-title3:hover{
+    color: var(--light-blue);
+}
+.few-reason__item-title3:active{
+    opacity: 0.6;
+}
+.few-reason__item-title5 {
+    font-family: var(--title-fontfamily);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.49;
+letter-spacing: 1px;
+margin-bottom: 28px;
+color: var(--dark-blue);
+}
+.few-reason__item-text {
+    color: var(--gray-color);
+    transition: all 0.4s ease;
+}
+.few-reason__item-text:hover{
+    color: var(--light-blue);
+}
+.few-reason__item-text:active{
+    opacity: 0.6s;
+}
