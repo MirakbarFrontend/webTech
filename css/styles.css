@@ -536,3 +536,18 @@ color: var(--dark-blue);
 .few-reason__item-text:active{
     opacity: 0.6s;
 }
+
+
+/* Site-img */
+.site-img {
+    background-color: var(--white-color);
+}
+.site-img__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.site-img__img {
+    width: 360px;
+    height: 360px;
+}
